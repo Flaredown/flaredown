@@ -5,18 +5,25 @@ layout: v3
   <nav>
     <img class="logo" src="img/newFlaredownLogo.svg" alt="Flaredown">
     <div class="nav-buttons">
-      <a class="signup">Sign Up</a>
-      <a class="login">Login</a>
+    <a class="signup" href="http://app.flaredown.com/signup" onclick="ga('send', 'event', 'CTA', 'click', 'Web sign up');">Sign Up</a>
+    <a class="login" href="http://app.flaredown.com/login" onclick="ga('send', 'event', 'Link', 'click', 'Log in');">Login</a>
     </div>
   </nav>
   <div class="hero-grid">
-    <div class="hero-content">
-      <h1 class="header">The world's most advanced symptom tracker</h1>
-      <p class="subheader">Check-in everyday to create a comprehensive history.</p>
-      <div class="mobile-links">
-        <img src="img/appStoreButton.svg" alt="Apple App Store" height="40px" style="margin-right:16px">
-        <img src="img/playStoreButton.svg" alt="Google Play Store" height="40px">
-      </div>
+  <div class="hero-content">
+  <h1 class="header">The world's most advanced symptom tracker</h1>
+  <p class="subheader">Check-in everyday to create a comprehensive history.</p>
+  <div class="mobile-links">
+    <a href="https://itunes.apple.com/us/app/flaredown-symptom-tracker/id982963596" onclick="ga('send', 'event', 'CTA', 'click', 'IOS App Store');">
+      <img src="img/appStoreButton.svg" alt="Apple App Store" height="40px"  style="margin:16px">
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=com.flaredown.flaredownWebWrapper" onclick="ga('send', 'event', 'CTA', 'click', 'Android App Store');">
+      <img src="img/playStoreButton.svg" alt="Google Play Store" height="40px" style="margin:16px" >
+    </a>
+  </div>
+  </div>
+  <div class="hero-image">
+  <img  src="img/phones.png" width="100%" alt="Image showing flaredown's tracking capabilities">
     </div>
     <div class="hero-image">
       <img src="img/phones.png" width="100%" alt="Image showing flaredown's tracking capabilities">
@@ -25,9 +32,9 @@ layout: v3
 </div>
 
 <div class="triggers-treatments">
-  <div>
-    <h2 style="margin-bottom: 24px;">Find your triggers and treatments</h2>
-    <p style="margin-bottom: 44px;">Flaredown is the most comprehensive symptom tracker ever created.</p>
+  <div class="section-text">
+    <h2 style="margin-bottom:8px;">Find your triggers and treatments</h2>
+    <p>Flaredown is the most comprehensive symptom tracker ever created.</p>
   </div>
   <div class="trigger-grid">
     <div class="trigger-card">
@@ -74,7 +81,7 @@ layout: v3
     </div>
   </div>
   <div class="create">
-    <img class="icons" src="img/create.svg" height="80px" style="margin-bottom:16px">
+  <img class="icons" src="img/create.svg" height="80px" style="margin:0;margin-bottom:16px">
     <h5 style="margin-bottom:8px;">Create your own</h5>
     <p>If we don't have it, you can add it.</p>
   </div>
