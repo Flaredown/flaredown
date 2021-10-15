@@ -1,0 +1,54 @@
+.collapsible {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 2px solid #F1EEEE;
+  border-radius: 6px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: #73C1BA;
+  font-weight: bold;
+  font-size: 26px;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  margin-top: 12px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.content p {
+  padding-bottom: 20px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.collapsible-container {
+  max-width: 1340px;
+  width: 100%;
+}
+
+.padding-bottom-md {
+  padding-bottom: 16px;
+}
