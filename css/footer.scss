@@ -1,0 +1,35 @@
+footer {
+  width: 100%;
+}
+
+.footer-top-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.social-media-icons {
+  padding-top: 10px;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: baseline;
+}
+
+.footer-top-container h2 {
+  padding-top: 10px;
+}
+
+.footer-info ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer ul li a {
+  color: #333333 !important;
+}
+
+ul#text-list li a {
+  color: #333333 !important;
+}
